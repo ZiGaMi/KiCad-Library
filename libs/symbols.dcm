@@ -1,0 +1,50 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC846BPDW1T1G
+D Dual General Purpose Transistor, NPN/PNP Duals (complementary)
+K BC846BPDW1
+$ENDCMP
+#
+$CMP DF5A6.8JE
+D ESD Four in package TVS diode
+K DF5A6.8JE
+$ENDCMP
+#
+$CMP DF5A6.8JE_0
+D ESD Four in package TVS diode
+K DF5A6.8JE
+$ENDCMP
+#
+$CMP LIS2DW12
+D 3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface
+K 3-axis accelerometer spi mems
+F http://www.st.com/web/en/resource/technical/document/datasheet/DM00042751.pdf
+$ENDCMP
+#
+$CMP LN1134
+D LDO
+K LN1134
+$ENDCMP
+#
+$CMP MCP795W10
+D 3V SPI Real-Time Clock Calender
+K RTC
+$ENDCMP
+#
+$CMP Micro_SD_CardMy
+D Micro SD Card Socket My
+K connector SD microsd
+F http://katalog.we-online.de/em/datasheet/693072010801.pdf
+$ENDCMP
+#
+$CMP NX2301P
+D P-channel MOSFET, 20V, 2A, 0.75V
+K NX2301P
+$ENDCMP
+#
+$CMP PEMD9
+D NPN/PNP resistor equipment transistors
+K PEMD9
+$ENDCMP
+#
+#End Doc Library

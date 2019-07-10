@@ -1,8 +1,8 @@
-(module Coil_1616 (layer F.Cu) (tedit 5AD8A87D)
-  (fp_text reference REF** (at 0 -3.6) (layer F.SilkS)
+(module Coil_1616 (layer F.Cu) (tedit 5AF3DBE9)
+  (fp_text reference L1 (at 0 -3.6) (layer F.SilkS) hide
     (effects (font (size 1.2 1.2) (thickness 0.15)))
   )
-  (fp_text value Coil_1616 (at -0.0762 3.2258) (layer F.Fab)
+  (fp_text value 4u7/2A (at -0.0762 3.2258) (layer F.Fab)
     (effects (font (size 1.2 1.2) (thickness 0.15)))
   )
   (fp_line (start 2.032 -2.1082) (end -2.057443 -2.1082) (layer F.SilkS) (width 0.15))
