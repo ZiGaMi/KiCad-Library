@@ -5,6 +5,16 @@ D Dual General Purpose Transistor, NPN/PNP Duals (complementary)
 K BC846BPDW1
 $ENDCMP
 #
+$CMP BCM847BS
+D NPN/NPN matched double tranzistors
+F http://www.farnell.com/datasheets/1504600.pdf
+$ENDCMP
+#
+$CMP BCM856BS
+D PNP/PNP matched double transistors
+F https://assets.nexperia.com/documents/data-sheet/BCM856BS_BCM856DS.pdf
+$ENDCMP
+#
 $CMP DF5A6.8JE
 D ESD Four in package TVS diode
 K DF5A6.8JE
