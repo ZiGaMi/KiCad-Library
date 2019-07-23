@@ -41,6 +41,11 @@ D LDO
 K LN1134
 $ENDCMP
 #
+$CMP LT6220
+D Single 60MHz Rail-to-Rail Op Amp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/622012fc.pdf
+$ENDCMP
+#
 $CMP MCP795W10
 D 3V SPI Real-Time Clock Calender
 K RTC
