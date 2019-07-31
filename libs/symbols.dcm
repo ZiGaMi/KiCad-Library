@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AP2114H-3.3
+D 1A low noise CMOS LDO regulator
+F https://www.diodes.com/assets/Datasheets/AP2114.pdf
+$ENDCMP
+#
 $CMP BC846BPDW1T1G
 D Dual General Purpose Transistor, NPN/PNP Duals (complementary)
 K BC846BPDW1
@@ -55,6 +60,11 @@ $CMP Micro_SD_CardMy
 D Micro SD Card Socket My
 K connector SD microsd
 F http://katalog.we-online.de/em/datasheet/693072010801.pdf
+$ENDCMP
+#
+$CMP NCV7428
+D System basis chpi with integrated LIN and voltage regulator
+F https://www.onsemi.com/pub/Collateral/NCV7428-D.PDF
 $ENDCMP
 #
 $CMP NX2301P
