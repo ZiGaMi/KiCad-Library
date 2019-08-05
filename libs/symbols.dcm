@@ -77,4 +77,8 @@ D NPN/PNP resistor equipment transistors
 K PEMD9
 $ENDCMP
 #
+$CMP R_SIP
+D Resistor network defined by part
+$ENDCMP
+#
 #End Doc Library
