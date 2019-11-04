@@ -35,6 +35,11 @@ D 3V QUAD SERIAL FLASH MEMORY WITH MULTI-I/O SPI - 4Mbit
 F http://www.farnell.com/datasheets/2625712.pdf?_ga=2.138701555.1180550861.1563032303-69856789.1563032303
 $ENDCMP
 #
+$CMP ISL29023
+D Ambient light detector IC
+F http://www.farnell.com/datasheets/1928817.pdf?_ga=2.160935166.2129630736.1572901255-69856789.1563032303
+$ENDCMP
+#
 $CMP LIS2DW12
 D 3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface
 K 3-axis accelerometer spi mems
@@ -54,6 +59,11 @@ $ENDCMP
 $CMP MCP795W10
 D 3V SPI Real-Time Clock Calender
 K RTC
+$ENDCMP
+#
+$CMP MPRLS0025PA
+D Pressure Sensor
+F http://www.farnell.com/datasheets/2548296.pdf?_ga=2.157499897.2129630736.1572901255-69856789.1563032303
 $ENDCMP
 #
 $CMP Micro_SD_CardMy
@@ -79,6 +89,11 @@ $ENDCMP
 #
 $CMP R_SIP
 D Resistor network defined by part
+$ENDCMP
+#
+$CMP SHT21
+D Temperature&Humidity sensor
+F http://www.farnell.com/datasheets/1780639.pdf
 $ENDCMP
 #
 #End Doc Library
