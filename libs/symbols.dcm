@@ -30,6 +30,11 @@ D ESD Four in package TVS diode
 K DF5A6.8JE
 $ENDCMP
 #
+$CMP GND_USB
+D Power symbol creates a global label with name "GNDA" , analog ground
+K power-flag
+$ENDCMP
+#
 $CMP IS25LQ040B
 D 3V QUAD SERIAL FLASH MEMORY WITH MULTI-I/O SPI - 4Mbit
 F http://www.farnell.com/datasheets/2625712.pdf?_ga=2.138701555.1180550861.1563032303-69856789.1563032303
