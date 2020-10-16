@@ -25,6 +25,11 @@ D BQ25616/616J Standalone 1-Cell 3.0-A Buck Battery Charger with Power Path and 
 F https://www.ti.com/lit/ds/symlink/bq25616.pdf?ts=1601314152706&ref_url=https%253A%252F%252Fwww.google.com%252F
 $ENDCMP
 #
+$CMP CM1624-08DE
+D CM1624-08DE
+F http://www.onsemi.com/pub_link/Collateral/CM1624-D.PDF
+$ENDCMP
+#
 $CMP DF5A6.8JE
 D ESD Four in package TVS diode
 K DF5A6.8JE
