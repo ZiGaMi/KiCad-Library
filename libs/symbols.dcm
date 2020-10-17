@@ -40,6 +40,11 @@ D ESD Four in package TVS diode
 K DF5A6.8JE
 $ENDCMP
 #
+$CMP EMIF06-MSD02N16
+D 6-line EMI filter and ESD protection for T-Flash and micro SD card™ interfaces
+F https://upverter.com/datasheet/dd14abe25c102cc7fdccadb49a97a5967f087691.pdf
+$ENDCMP
+#
 $CMP FR
 D Ferrite Bead
 $ENDCMP
@@ -119,6 +124,11 @@ $ENDCMP
 $CMP RJ45_LAN
 D LAN-Transformer WE-RJ45LAN 10/100BaseT
 F https://www.we-online.com/catalog/datasheet/74990111217.pdf
+$ENDCMP
+#
+$CMP RN4871
+D Bluetooth® 4.2 Low Energy Module
+F https://4donline.ihs.com/images/VipMasterIC/IC/MCHP/MCHP-S-A0003869315/MCHP-S-A0003869315-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0
 $ENDCMP
 #
 $CMP R_SIP
