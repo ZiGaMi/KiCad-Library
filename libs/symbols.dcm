@@ -54,6 +54,10 @@ D Power symbol creates a global label with name "GNDA" , analog ground
 K power-flag
 $ENDCMP
 #
+$CMP ILI9488
+D 3.5" SPI TFT 480x320 diplay with touch controler
+$ENDCMP
+#
 $CMP IRS25752LPBF
 D SOT-23 High Side Gate Driver IC
 F http://www.farnell.com/datasheets/2211671.pdf?_ga=2.80027927.14263225.1600586740-1898541037.1585504597
