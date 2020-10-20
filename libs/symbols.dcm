@@ -25,6 +25,11 @@ D PNP/PNP matched double transistors
 F https://assets.nexperia.com/documents/data-sheet/BCM856BS_BCM856DS.pdf
 $ENDCMP
 #
+$CMP BME680
+D Low power gas, pressure, temperature & humidity
+F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf
+$ENDCMP
+#
 $CMP BQ25616
 D BQ25616/616J Standalone 1-Cell 3.0-A Buck Battery Charger with Power Path and 1.2-A
 F https://www.ti.com/lit/ds/symlink/bq25616.pdf?ts=1601314152706&ref_url=https%253A%252F%252Fwww.google.com%252F
@@ -94,6 +99,11 @@ D LDO
 K LN1134
 $ENDCMP
 #
+$CMP LPS22HHTR
+D High-performance MEMS nano pressure sensor:
+F https://www.st.com/resource/en/datasheet/lps22hh.pdf
+$ENDCMP
+#
 $CMP LT6220
 D Single 60MHz Rail-to-Rail Op Amp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/622012fc.pdf
@@ -102,11 +112,6 @@ $ENDCMP
 $CMP MCP795W10
 D 3V SPI Real-Time Clock Calender
 K RTC
-$ENDCMP
-#
-$CMP MPRLS0025PA
-D Pressure Sensor
-F http://www.farnell.com/datasheets/2548296.pdf?_ga=2.157499897.2129630736.1572901255-69856789.1563032303
 $ENDCMP
 #
 $CMP Micro_SD_CardMy

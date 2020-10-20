@@ -441,6 +441,51 @@ X ~ 5 -300 0 225 R 50 50 2 1 I
 ENDDRAW
 ENDDEF
 #
+# BME680
+#
+DEF BME680 U 0 40 Y Y 1 F N
+F0 "U" 0 200 50 H V L CNN
+F1 "BME680" 0 300 50 H V L CNN
+F2 "footprints:Bosch_Tools-BME680-Recommended_Land_Pattern_" 0 400 50 H I L CNN
+F3 "" 0 500 50 H I L CNN
+F4 "3%" 0 600 50 H I L CNN "accuracy"
+F5 "No" 0 700 50 H I L CNN "automotive"
+F6 "IC" 0 800 50 H I L CNN "category"
+F7 "Sensors" 0 900 50 H I L CNN "device class L1"
+F8 "Temperature and Humidity Sensors" 0 1000 50 H I L CNN "device class L2"
+F9 "unset" 0 1100 50 H I L CNN "device class L3"
+F10 "SENSOR RH PRESSURE TEMP VOC" 0 1200 50 H I L CNN "digikey description"
+F11 "828-1077-1-ND" 0 1300 50 H I L CNN "digikey part number"
+F12 "1mm" 0 1400 50 H I L CNN "height"
+F13 "I2C,SPI" 0 1500 50 H I L CNN "interface"
+F14 "Yes" 0 1600 50 H I L CNN "lead free"
+F15 "5347867a6e6a1279" 0 1700 50 H I L CNN "library id"
+F16 "Bosch Tools" 0 1800 50 H I L CNN "manufacturer"
+F17 "3.6V" 0 1900 50 H I L CNN "max supply voltage"
+F18 "1.2V" 0 2000 50 H I L CNN "min supply voltage"
+F19 "Pressure, Temperature and Humidity Sensor Digital Output 1.8V 8-Pin LGA" 0 2100 50 H I L CNN "mouser description"
+F20 "262-BME680" 0 2200 50 H I L CNN "mouser part number"
+F21 "0.09-12mA" 0 2300 50 H I L CNN "operating supply current"
+F22 "LGA8" 0 2400 50 H I L CNN "package"
+F23 "Yes" 0 2500 50 H I L CNN "rohs"
+F24 "I2C,SPI" 0 2600 50 H I L CNN "sensor output"
+F25 "+85°C" 0 2700 50 H I L CNN "temperature range high"
+F26 "-40°C" 0 2800 50 H I L CNN "temperature range low"
+F27 "Mouser" 250 500 79 H I C CNN "Vendor"
+F28 "262-BME680" 750 600 79 H I C CNN "Vendor Number"
+DRAW
+S 0 100 650 -450 1 1 0 f
+X GND 1 -100 -350 100 R 40 40 1 1 W
+X ~CS~ 2 750 -300 100 L 40 40 1 1 I
+X SDI 3 750 -100 100 L 40 40 1 1 B
+X SCK 4 750 0 100 L 40 40 1 1 I C
+X SDO 5 750 -200 100 L 40 40 1 1 B
+X VDDIO 6 -100 -100 100 R 40 40 1 1 W
+X GND 7 -100 -250 100 R 40 40 1 1 W
+X VDD 8 -100 0 100 R 40 40 1 1 W
+ENDDRAW
+ENDDEF
+#
 # BQ25616
 #
 DEF BQ25616 U 0 40 Y Y 1 F N
@@ -1023,6 +1068,52 @@ X VOUT 5 350 50 98 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# LPS22HHTR
+#
+DEF LPS22HHTR U 0 40 Y Y 1 F N
+F0 "U" 0 200 50 H V L CNN
+F1 "LPS22HHTR" 0 300 50 H V L CNN
+F2 "footprints:STMicroelectronics-HLGA-10L-DM00386636-0-1-MFG" 0 400 50 H I L CNN
+F3 "" 0 500 50 H I L CNN
+F4 "No" 0 600 50 H I L CNN "automotive"
+F5 "IC" 0 700 50 H I L CNN "category"
+F6 "Sensors" 0 800 50 H I L CNN "device class L1"
+F7 "Pressure Sensors" 0 900 50 H I L CNN "device class L2"
+F8 "unset" 0 1000 50 H I L CNN "device class L3"
+F9 "CONSUMER MEMS" 0 1100 50 H I L CNN "digikey description"
+F10 "497-18182-1-ND" 0 1200 50 H I L CNN "digikey part number"
+F11 "https://www.st.com/content/ccc/resource/technical/document/technical_note/73/17/9c/16/dd/96/4a/01/CD00134799.pdf/files/CD00134799.pdf/jcr:content/translations/en.CD00134799.pdf" 0 1300 50 H I L CNN "footprint url"
+F12 "0.8mm" 0 1400 50 H I L CNN "height"
+F13 "Yes" 0 1500 50 H I L CNN "lead free"
+F14 "14c612b4139e5560" 0 1600 50 H I L CNN "library id"
+F15 "STMicroelectronics" 0 1700 50 H I L CNN "manufacturer"
+F16 "3.7V" 0 1800 50 H I L CNN "max supply voltage"
+F17 "1.7V" 0 1900 50 H I L CNN "min supply voltage"
+F18 "511-LPS22HHTR" 0 2000 50 H I L CNN "mouser part number"
+F19 "4-12uA" 0 2100 50 H I L CNN "operating supply current"
+F20 "HLGA10" 0 2200 50 H I L CNN "package"
+F21 "No Port" 0 2300 50 H I L CNN "port style"
+F22 "Yes" 0 2400 50 H I L CNN "rohs"
+F23 "I2C,SPI" 0 2500 50 H I L CNN "sensor output"
+F24 "+85°C" 0 2600 50 H I L CNN "temperature range high"
+F25 "-40°C" 0 2700 50 H I L CNN "temperature range low"
+F26 "Farnell" 150 550 50 H I C CNN "Vendor"
+F27 "2980908" 200 450 50 H I C CNN "Vendor Number"
+DRAW
+S 100 100 900 -600 1 1 0 f
+X Vdd_IO 1 0 -100 100 R 40 40 1 1 W
+X VDD 10 0 0 100 R 40 40 1 1 W
+X SCL/SPC 2 1000 0 100 L 40 40 1 1 I C
+X Reserved 3 0 -300 100 R 40 40 1 1 P
+X SDA/SDI/SDO 4 1000 -100 100 L 40 40 1 1 B
+X SDO/SA0 5 1000 -200 100 L 40 40 1 1 O
+X CS 6 1000 -300 100 L 40 40 1 1 I
+X INT_DRDY 7 1000 -500 100 L 40 40 1 1 O
+X GND 8 0 -500 100 R 40 40 1 1 W
+X GND 9 0 -400 100 R 40 40 1 1 W
+ENDDRAW
+ENDDEF
+#
 # LT6220
 #
 DEF LT6220 U 0 40 Y Y 1 F N
@@ -1183,30 +1274,6 @@ X PWMA 6 -800 450 200 R 50 50 1 1 I
 X PWMB 7 -800 350 200 R 50 50 1 1 I
 X PWMC 8 -800 250 200 R 50 50 1 1 I
 X SA 9 -200 -200 200 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# MPRLS0025PA
-#
-DEF MPRLS0025PA U 0 40 Y Y 1 F N
-F0 "U" -200 400 50 H V C CNN
-F1 "MPRLS0025PA" 50 350 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -200 200 550 -750 0 1 0 f
-X SS 1 750 100 200 L 50 50 1 1 I
-X VSS 10 -400 -200 200 R 50 50 1 1 I
-X NC 11 750 -675 200 L 50 50 1 1 I
-X VDD 11 -400 100 200 R 50 50 1 1 I
-X MOSI/SDA 2 750 0 200 L 50 50 1 1 I
-X SCLK/SCL 3 750 -100 200 L 50 50 1 1 I
-X V0+ 4 -400 -450 200 R 50 50 1 1 I
-X NC 5 750 -575 200 L 50 50 1 1 I
-X V0- 6 -400 -675 200 R 50 50 1 1 I
-X MISO 7 750 -200 200 L 50 50 1 1 I
-X EOC 8 750 -300 200 L 50 50 1 1 I
-X RES 9 750 -400 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
