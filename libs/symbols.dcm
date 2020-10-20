@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1048
+D Keystone 1048 2x 18650 battery holder
+F https://www.keyelco.com/userAssets/file/M65p27.pdf
+$ENDCMP
+#
 $CMP AP2114H-3.3
 D 1A low noise CMOS LDO regulator
 F https://www.diodes.com/assets/Datasheets/AP2114.pdf
