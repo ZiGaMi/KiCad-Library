@@ -197,6 +197,21 @@ X +6V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# +VCC_BUFFER
+#
+DEF +VCC_BUFFER #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+VCC_BUFFER" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +VCC_BUFFER 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # +VSYS
 #
 DEF +VSYS #PWR 0 0 Y Y 1 F P
@@ -1805,6 +1820,51 @@ X GND 3 -450 -100 200 R 50 50 1 1 I
 X OUT 4 450 100 200 L 50 50 1 1 I
 X FB 5 450 0 200 L 50 50 1 1 I
 X GND 6 450 -100 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# TSL2561T
+#
+DEF TSL2561T U 0 40 Y Y 1 F N
+F0 "U" 0 200 50 H V L CNN
+F1 "TSL2561T" 0 300 50 H V L CNN
+F2 "footprints:AMS-TSL2561T-MFG" 0 400 50 H I L CNN
+F3 "" 0 500 50 H I L CNN
+F4 "+70°C" 0 600 50 H I L CNN "ambient temperature range high"
+F5 "-30°C" 0 700 50 H I L CNN "ambient temperature range low"
+F6 "No" 0 800 50 H I L CNN "automotive"
+F7 "IC" 0 900 50 H I L CNN "category"
+F8 "2153190" 0 1000 50 H I L CNN "ciiva ids"
+F9 "Sensors" 0 1100 50 H I L CNN "device class L1"
+F10 "Optical Sensors" 0 1200 50 H I L CNN "device class L2"
+F11 "unset" 0 1300 50 H I L CNN "device class L3"
+F12 "SENSOR OPT 640NM AMBIENT 6SMD" 0 1400 50 H I L CNN "digikey description"
+F13 "TSL2561-TCT-ND" 0 1500 50 H I L CNN "digikey part number"
+F14 "1.55mm" 0 1600 50 H I L CNN "height"
+F15 "Yes" 0 1700 50 H I L CNN "lead free"
+F16 "46661e6efcadb558" 0 1800 50 H I L CNN "library id"
+F17 "AMS" 0 1900 50 H I L CNN "manufacturer"
+F18 "3.6V" 0 2000 50 H I L CNN "max supply voltage"
+F19 "2.7V" 0 2100 50 H I L CNN "min supply voltage"
+F20 "TSL2561 Series 736 kHz 3.6 V I2C Light to Digital Converter - TMB-6" 0 2200 50 H I L CNN "mouser description"
+F21 "856-TSL2561T" 0 2300 50 H I L CNN "mouser part number"
+F22 "0.24mA" 0 2400 50 H I L CNN "operating supply current"
+F23 "SMT_3MM8_2MM6" 0 2500 50 H I L CNN "package"
+F24 "1394513895" 0 2600 50 H I L CNN "release date"
+F25 "Yes" 0 2700 50 H I L CNN "rohs"
+F26 "I2C" 0 2800 50 H I L CNN "sensor output"
+F27 "+70°C" 0 2900 50 H I L CNN "temperature range high"
+F28 "-30°C" 0 3000 50 H I L CNN "temperature range low"
+F29 "Digikey" 0 0 50 H I C CNN "Vendor"
+F30 "TSL2561-TCT-ND" 0 0 50 H I C CNN "Vendor Number"
+DRAW
+S 0 150 650 -350 1 1 0 f
+X VDD 1 -100 50 100 R 40 40 1 1 W
+X ADDR_SEL 2 750 -150 100 L 40 40 1 1 I
+X GND 3 -100 -250 100 R 40 40 1 1 W
+X SCL 4 750 50 100 L 40 40 1 1 I C
+X ~INT~ 5 750 -250 100 L 40 40 1 1 C
+X SDA 6 750 -50 100 L 40 40 1 1 B
 ENDDRAW
 ENDDEF
 #

@@ -164,6 +164,11 @@ D Automotive-grad dual N-Channel MOSFET, 40V, 15A
 F https://www.st.com/resource/en/datasheet/stl15dn4f5.pdf
 $ENDCMP
 #
+$CMP TSL2561T
+D Light-to-Digital Converter
+F https://ams.com/documents/20143/36005/TSL2561_DS000110_3-00.pdf/18a41097-2035-4333-c70e-bfa544c0a98b
+$ENDCMP
+#
 $CMP USBDF01W5
 D EMI filter and line termination for USB downstream ports
 F http://www.farnell.com/datasheets/1726520.pdf?_ga=2.82257366.1344590868.1602317992-1898541037.1585504597
