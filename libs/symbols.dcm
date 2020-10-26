@@ -119,6 +119,11 @@ D 3V SPI Real-Time Clock Calender
 K RTC
 $ENDCMP
 #
+$CMP MP34DT05TR-A
+D MEMS audio sensor omnidirectional digital microphone
+F https://www.st.com/resource/en/datasheet/mp34dt05-a.pdf
+$ENDCMP
+#
 $CMP Micro_SD_CardMy
 D Micro SD Card Socket My
 K connector SD microsd
