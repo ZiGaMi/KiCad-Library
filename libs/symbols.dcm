@@ -140,6 +140,11 @@ D P-channel MOSFET, 20V, 2A, 0.75V
 K NX2301P
 $ENDCMP
 #
+$CMP PBSS4350SS
+D 50 V, 2.7 A NPN/NPN low VCEsat (BISS) transistor
+F http://www.farnell.com/datasheets/1624748.pdf?_ga=2.85360729.1544356822.1604086954-228116229.1604086954
+$ENDCMP
+#
 $CMP PEMD9
 D NPN/PNP resistor equipment transistors
 K PEMD9
