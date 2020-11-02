@@ -165,8 +165,8 @@ D Resistor network defined by part
 $ENDCMP
 #
 $CMP SHT21
-D Temperature&Humidity sensor
-F http://www.farnell.com/datasheets/1780639.pdf
+D Humidity and Temperature Sensor IC
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/Humidity_Sensors/Sensirion_Humidity_Sensors_SHT21_Datasheet_V4.pdf
 $ENDCMP
 #
 $CMP STL15DN4F5
