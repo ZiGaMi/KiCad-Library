@@ -1,0 +1,16 @@
+(module Keystone-3000-0-0-MFG (layer F.Cu) (tedit 5FA5650E)
+  (fp_text reference REF** (at -6.73 -6.96) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  )
+  (fp_text value + (at -10.55 -0.775) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  )
+  (pad 2 smd rect (at -7.87 -0.69) (size 3.18 3.18) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 7.87 -0.69) (size 3.18 3.18) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 0 -0.69) (size 3.96 3.9) (layers F.Cu F.Mask))
+  (model ${MYLIBS}/3d_model/Keystone_1225_battery_holder_3000.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
