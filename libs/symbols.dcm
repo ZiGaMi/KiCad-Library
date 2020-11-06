@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +3V3_LP
+D +3V3 Low Power Rail
+$ENDCMP
+#
 $CMP 1048
 D Keystone 1048 2x 18650 battery holder
 F https://www.keyelco.com/userAssets/file/M65p27.pdf
