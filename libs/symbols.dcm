@@ -103,6 +103,11 @@ K 3-axis accelerometer spi mems
 F http://www.st.com/web/en/resource/technical/document/datasheet/DM00042751.pdf
 $ENDCMP
 #
+$CMP LM74610QDGKTQ1
+D LM74610-Q1 Zero IQ Reverse Polarity Protection Smart Diode Controller
+F http://www.ti.com/lit/ds/symlink/lm74610-q1.pdf
+$ENDCMP
+#
 $CMP LN1134
 D LDO
 K LN1134
@@ -137,6 +142,11 @@ $ENDCMP
 $CMP NCV7428
 D System basis chpi with integrated LIN and voltage regulator
 F https://www.onsemi.com/pub/Collateral/NCV7428-D.PDF
+$ENDCMP
+#
+$CMP NTTFS5C670NL
+D Power MOSFET N-Channel, 60V, 70A, 6.5mOhm
+F http://www.farnell.com/datasheets/2052998.pdf
 $ENDCMP
 #
 $CMP NX2301P
