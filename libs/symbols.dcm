@@ -123,6 +123,11 @@ D Single 60MHz Rail-to-Rail Op Amp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/622012fc.pdf
 $ENDCMP
 #
+$CMP MCP23S08T-E_ML
+D I/O Expander, 8bit, 10 MHz, SPI, 1.8 V, 5.5 V, QFN
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf
+$ENDCMP
+#
 $CMP MCP795W10
 D 3V SPI Real-Time Clock Calender
 K RTC
