@@ -48,9 +48,9 @@
   (pad "2" thru_hole circle (at 0 2.5) (size 1.7 1.7) (drill 1.2) (layers *.Cu *.Mask) (tstamp ccf68b1e-3d1a-4125-9a65-e0b2709d4094))
   (pad "3" thru_hole circle (at 2.5 0) (size 1.7 1.7) (drill 1.2) (layers *.Cu *.Mask) (tstamp f53d35b8-f7bf-45df-9a13-6659d03c87bb))
   (pad "4" thru_hole circle (at 2.5 2.5) (size 1.7 1.7) (drill 1.2) (layers *.Cu *.Mask) (tstamp fe062da2-d543-4da5-85ed-4323ae7a2526))
-  (model "D:/Personal/C_embedded/KiCad-Library/libs/footprints.pretty/1053141104.stp"
-    (offset (xyz 8.7 -1.25 3.3))
+  (model "C:/Users/ZigaMiklosic/KiCadLibs/KiCad-Library/libs/3d_model/1053141104.stp"
+    (offset (xyz 8.7 -1.24 3.3))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 -90))
+    (rotate (xyz 90 -180 90))
   )
 )
